@@ -8,4 +8,4 @@ app = Flask(__name__)
 def hello():
     return render_template('index.html')
 
-flask.run("0.0.0.0","80")
+app.run("0.0.0.0","80")
